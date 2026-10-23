@@ -1,0 +1,12 @@
+# Keep the included synthetic demo dataset; ignore other local datasets.
+!data/
+data/*
+!data/train/
+data/train/*
+!data/train/generated/
+data/train/generated/*
+!data/train/generated/*.bmp
+.venv/
+__pycache__/
+*.py[cod]
+artifacts/
